@@ -13,3 +13,5 @@ git branch
 git merge    
 git branch -D  
 git branch -d   
+git config --global user.name 'Saketg9'  
+git config --global user.email 'saket_g@hotmail.co.uk'    
