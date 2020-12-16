@@ -3,6 +3,8 @@ This repo will contain all the notes related to git
 
 ## Commands in lesson one 
 
+this is main branch changes
+
 **git init**   (this command is used to initalize a directory for git repo)  
 
 git add   (this command is used to add files to the staging area from working directory)  
