@@ -3,9 +3,9 @@ This repo will contain all the notes related to git
 
 ## Commands in lesson one 
 
-git init   (this command is used to initalize a directory for git repo)  
+**git init**   (this command is used to initalize a directory for git repo)  
 
-git add   (this command is used to add changes to the git repo)  
+git add   (this command is used to add files to the staging area from working directory)  
 
 git commit -m  (this commmand is used to track changes from the staging area to the local repo)  
 
