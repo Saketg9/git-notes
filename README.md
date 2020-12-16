@@ -29,4 +29,4 @@ git config --global user.email 'saket_g@hotmail.co.uk'    (this command allows y
 
 git version  (this command allows you to check if you have git installled)   
 
-git config -l   (this command allows you to check the settings of git) 
+git config -l   (this command allows you to check the settings of git)     
