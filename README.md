@@ -3,30 +3,34 @@ This repo will contain all the notes related to git
 
 ## Commands in lesson one 
 
-git init   (this command is used to initalize a directory for git repo)  
+git config --global user.name 'username'  (This command allows you to set up your username)   
 
-git add   (this command is used to add files to the staging area from working directory)  
+git config --global user.email 'username@example.com'  (This command allows you to set up your email address)  
 
-git commit -m  (this commmand is used to track changes from the staging area to the local repo)  
+git version  (This command allows you to check if you have git installled)   
 
-git status    (this command shows the status of the git repo you are currently working on)  
+git config -l   (This command allows you to check the settings of git)  
 
-git log    (this command shows all the recent activity done on the repo you are working on)  
+git init   (This command is used to initalize a directory as git repo)  
 
-git checkout    (this command allows you to change which branch you are working on)   
+git add   (This command is used to add files to the staging area from working directory)  
 
-git branch    (this command shows you what branch you are currently working on)   
+git commit -m "message" (This commmand is used to save changes i.e. move from the staging area to the local repo)  
 
-git merge    (this command allows you to commit all changes to a single branch)   
+git status  (This command shows the status of the git repo you are currently working on)  
 
-git branch -D   (this command allows you to delete a particular branch)   
+git log   (This command shows all the recent activity done on the repo you are working on)  
 
-git branch -d   
+git branch  (This command shows you what branch you are currently working on)   
 
-git config --global user.name 'Saketg9'  (this command allows you to set up your username)   
+git checkout  (This command allows you to change which branch you are working on)   
 
-git config --global user.email 'saket_g@hotmail.co.uk'    (this command allows you to set up your email address)   
+git merge   (This command allows you to commit all changes to a single branch)   
 
-git version  (this command allows you to check if you have git installled)   
+git branch -D branch_name   (This command allows you to delete a particular branch)   
 
-git config -l   (this command allows you to check the settings of git)     
+git branch -d branch_name     
+
+git clone git_url (This command will clone the remote repository )
+
+
