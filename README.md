@@ -33,4 +33,16 @@ git branch -d branch_name
 
 git clone git_url (This command will clone the remote repository )
 
+git push origin main (This command will push changes to the remote main branch on github)
+
+git pull origin main (This command will pull changes from the remote git branch)
+
+git remote add origin git_url (This command will add remote origin to local git repo.)
+
+git diff (This command will show the changes in the repo.)
+
+git checkout -- <filename> (This command will reset the changes made to the local repo.)
+
+
+
 
