@@ -29,4 +29,16 @@ git config --global user.email 'saket_g@hotmail.co.uk'    (this command allows y
 
 git version  (this command allows you to check if you have git installled)   
 
-git config -l   (this command allows you to check the settings of git) 
+git config -l   (this command allows you to check the settings of git)     
+
+cat .git config   (this command will show where the username and email are saved in home directory)   
+
+cd .git   (this command will allow you to entre a specific directory)   
+
+git branch -a   (this command will show you the branches in the local repo)   
+
+git branch -ar   (this command will show you the branches in the remote repo)    
+
+git push origin main (this command pushes your work on to the remote repo)   
+
+git reset HEAD -- file name   (this command will move a file from the staging area back to the working directory)   
