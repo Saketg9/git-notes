@@ -4,14 +4,16 @@ This repo will contain all the notes related to git
 
 ## list of commands 
 
->**git init**   
->
->>(this command is used to initalize a directory for git repo)  
+1. **git init**   
+    ```
+    This command is used to initalize a directory for git repo.      
+    ```
 
->**git add**   
->
->>(this command is used to add files to the staging area from working   directory)  
-
+1. **git add**   
+    ```
+    This command is used to add files to the staging area from working directory.
+    ```
+    
 >**git commit -m**  
 >
 >>(this commmand is used to track changes from the staging area to the local repo)  
