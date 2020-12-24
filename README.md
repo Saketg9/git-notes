@@ -1,48 +1,86 @@
 # git-notes
+
 This repo will contain all the notes related to git 
 
-## Commands in lesson one 
+## list of commands 
 
-git config --global user.name 'username'  (This command allows you to set up your username)   
+>**git init**   
+>
+>>(this command is used to initalize a directory for git repo)  
 
-git config --global user.email 'username@example.com'  (This command allows you to set up your email address)  
+>**git add**   
+>
+>>(this command is used to add files to the staging area from working   directory)  
 
-git version  (This command allows you to check if you have git installled)   
+>**git commit -m**  
+>
+>>(this commmand is used to track changes from the staging area to the local repo)  
 
-git config -l   (This command allows you to check the settings of git)  
+>**git status**    
+>
+>>(this command shows the status of the git repo you are currently working on)  
 
-git init   (This command is used to initalize a directory as git repo)  
+>**git log**    
+>
+>>(this command shows all the recent activity done on the repo you are working on)  
 
-git add   (This command is used to add files to the staging area from working directory)  
+>**git checkout**    
+>
+>>(this command allows you to change which branch you are working on)   
 
-git commit -m "message" (This commmand is used to save changes i.e. move from the staging area to the local repo)  
+>**git branch**    
+>
+>>(this command shows you what branch you are currently working on)   
 
-git status  (This command shows the status of the git repo you are currently working on)  
+>**git merge**   
+>
+>>(this command allows you to commit all changes to a single branch)   
 
-git log   (This command shows all the recent activity done on the repo you are working on)  
+>**git branch -D**   
+>
+>>(this command allows you to delete a particular branch)     
 
-git branch  (This command shows you what branch you are currently working on)   
+>**git config --global** user.name 'Saketg9'  
+>
+>>(this command allows you to set up your username)   
 
-git checkout  (This command allows you to change which branch you are working on)   
+>**git config --global** user.email 'saket_g@hotmail.co.uk'    
+>
+>>(this command allows you to set up your email address)   
 
-git merge   (This command allows you to commit all changes to a single branch)   
+>**git version**  
+>
+>>(this command allows you to check if you have git installled)   
 
-git branch -D branch_name   (This command allows you to delete a particular branch)   
+>**git config -l**   
+>
+>>(this command allows you to check the settings of git)  
 
-git branch -d branch_name     
+>**cat .git config**  
+>
+>>(this command will show where the username and email are saved in home directory)
 
-git clone git_url (This command will clone the remote repository )
+>**cd .git**  
+>
+>>(this command will allow you to entre a specific directory)
 
-git push origin main (This command will push changes to the remote main branch on github)
+>**git branch -a**  
+>
+>>(this command will show you the branches in the local repo)
 
-git pull origin main (This command will pull changes from the remote git branch)
+>**git branch -ar**  
+>
+>>(this command will show you the branches in the remote repo)
 
-git remote add origin git_url (This command will add remote origin to local git repo.)
+>**git push origin main**  
+>
+>>(this command pushes your work on to the remote repo)
 
-git diff (This command will show the changes in the repo.)
+>**git reset HEAD -- file name**  
+>
+>>(this command will move a file from the staging area back to the working directory)
 
-git checkout -- <filename> (This command will reset the changes made to the local repo.)
-
-
-
+>**git clone**
+>
+>>(this command will allow you to clone a git repo)
 
