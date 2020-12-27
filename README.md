@@ -4,6 +4,7 @@ This repo will contain all the notes related to git
 
 ## list of commands 
 
+
 1. **git init**   
     ```
     This command is used to initalize a directory for git repo.      
@@ -101,3 +102,4 @@ This repo will contain all the notes related to git
 1. **git clone**
     ```
     This command will allow you to clone a git repo.
+    ```
