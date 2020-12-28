@@ -4,24 +4,24 @@ This repo will contain all the notes related to git
 
 ## list of commands 
 
-1. **git init**   
+1. **git config --global** user.name 'Saketg9'     
     ```
-    This command is used to initalize a directory for git repo.      
+    This command is allows you to set up your username.      
     ```
 
-1. **git add**   
+1. **git config --global** user.email 'saket_g@hotmail.co.uk'  
     ```
-    This command is used to add files to the staging area from working directory.
+    This command allows you to set up your email address.
     ```
     
-1. **git commit -m**  
+1. **git version**     
     ```
-    This commmand is used to track changes from the staging area to the local repo.  
+    This commmand allows you to check if you have git installed. 
     ```
 
-1. **git status**    
+1. **git config -l**    
     ```
-    This command shows the status of the git repo you are currently working on.  
+    This command allows you to check the settings of git. 
     ```
 
 1. **git log**    
@@ -48,24 +48,24 @@ This repo will contain all the notes related to git
     This command allows you to delete a particular branch.    
     ```
 
-1. **git config --global** user.name 'Saketg9'  
+1. **git init**     
     ```
-    This command allows you to set up your username.   
-    ```
-
-1. **git config --global** user.email 'saket_g@hotmail.co.uk'    
-    ```
-    This command allows you to set up your email address    
+    This command is used to initalize a directory for git repo.   
     ```
 
-1. **git version**  
+1. **git add**     
     ```
-    This command allows you to check if you have git installled.
+    This command is used to add files to the staging area from directory.    
+    ```
+
+1. **git commit -m**  
+    ```
+    This command is used to track changes from the staging area to the local repo.
     ```   
 
-1. **git config -l**   
+1. **git status**   
     ```
-    This command allows you to check the settings of git.
+    This command shows the status of the git repo you are currently working on.
     ```  
 
 1. **cat .git config**  
