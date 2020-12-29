@@ -101,3 +101,4 @@ This repo will contain all the notes related to git
 1. **git clone**
     ```
     This command will allow you to clone a git repo.
+    ```
